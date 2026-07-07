@@ -1,0 +1,44 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+html,body{
+  width: 100%;
+  min-height: 100vh;
+  /* background-color: rgb(188, 209, 209); */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+button{
+  border: 2px solid #3f3f3f;
+  padding: 10px;
+}
+input{
+   border: 2px solid #3f3f3f;
+   padding: 10px;
+}
+.box{
+  background-color: rgb(118, 218, 72);
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  margin: 20px;
+}
+.Page1{
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(176, 80, 191)
+}
+.Page2{
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(80, 191, 191)
+}
+.Page3{
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(106, 191, 80)
+}
+@import 'tailwindcss'; 
