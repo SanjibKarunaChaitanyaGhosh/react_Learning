@@ -22,6 +22,7 @@ const App = () => {
     <div>
       <h1>Hello Sanjib</h1>
       <button onClick={btnClicked} onMouseEnter={mouseEnter} >Change user</button>
+
       <button onDoubleClick={doubleClicked}>Double Clicked</button>
 
       <button onClick={function(){
@@ -42,7 +43,7 @@ const App = () => {
       }/>
 
       <div className='box' onMouseMove={(elm)=>{
-              console.log("red box",elm)
+              console.log("red box",elm.pageX,elm.pageY,elm.clientX,elm.clientY)
       }}  ></div>
 
       <div className='Page1' onWheel={()=>{
