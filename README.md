@@ -22,7 +22,7 @@ npx create-react-app my-app
 Create a new React project using Vite:
 
 ```bash
-npm create vite@latest
+npm create vite
 ```
 
 Choose:
