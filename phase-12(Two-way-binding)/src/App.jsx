@@ -6,7 +6,9 @@ const [title, setTitle] = useState('Sanjib')
 
 const sumbmitHandler=(elm)=>{
   elm.preventDefault()
-  console.log("form submitted")
+  console.log("form submitted", title)
+
+  setTitle("")
 }
 
   return (
