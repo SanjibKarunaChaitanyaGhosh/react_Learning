@@ -33,6 +33,9 @@ const Hooks = () => {
         <li>
           <Link to="/form">Forms handling</Link>
         </li>
+        <li>
+          <Link to="/conditionalrendering">Conditional Rendering</Link>
+        </li>
         <li>useContext</li>
         <li>useReducer</li>
         <li>useMemo</li>
