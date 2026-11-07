@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.linkbtn{
+    @apply px-2 py-4 bg-amber-950 border-2 border-white rounded;
+}
+
+.inptBox{
+    @apply px-2 py-3 rounded-2xl border-2 
+}
